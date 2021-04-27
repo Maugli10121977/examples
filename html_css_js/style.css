@@ -1,0 +1,7 @@
+input, textarea {
+  border: 1px solid red;
+}
+
+fieldset {
+  border: 2px groove orange;
+}
