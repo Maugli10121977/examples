@@ -1,3 +1,7 @@
 __pychache__/
+<<<<<<< HEAD
 html_css_js/ex/
 .gitignore
+=======
+#html_css_js/ex/
+>>>>>>> ca96483b9698ada46e898266c38af334defe38bc
