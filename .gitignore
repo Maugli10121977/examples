@@ -1,7 +1,13 @@
+<<<<<<< HEAD
+python3/demo.py
+python3/py3_curses_menu.py
+python3/py3_curses_snake.py
+python3/py3_curses_translator.py
+=======
 __pychache__/
 <<<<<<< HEAD
 html_css_js/ex/
-.gitignore
 =======
-#html_css_js/ex/
+html_css_js/
 >>>>>>> ca96483b9698ada46e898266c38af334defe38bc
+>>>>>>> 069f2fe8bc154bf135a58d11b68c8e792153258e
