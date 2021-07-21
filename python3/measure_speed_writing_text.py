@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import sys
 from datetime import datetime
 
 def measure_speed():
@@ -13,4 +14,15 @@ def measure_speed():
     print(f'Время, потраченное на ввод текста:    {result} сек')
     print(f'Среднее время, требуемое для ввода одного символа:    {result/len(text)} сек')
 
-measure_speed()
+def helper():
+    print("Параметры:\n'-h' - эта справка\n")
+
+try:
+    if len(sys.argv) == 1:
+        measure_speed()
+    else:
+        if '-h' in sys.argv:
+            helper()
+except (KeyboardInterrupt, EOFError):
+    print('\nПрервано!')
+    exit()
